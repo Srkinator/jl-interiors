@@ -560,7 +560,7 @@ input, select, textarea {
 	}
 
 	.mr {
-		background-image: url('../../images/mr/1.trp\ 1\ \(pocetna\).jpeg');
+		background-image: url('../../images/mr/1\ cropped.jpg');
 		background-size: 100% 100%;
 	}
 
@@ -2474,8 +2474,8 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 	#intro-mr {
-		background: url("images/overlay.png"), url("../../images/mr/1.trp\ 1\ \(pocetna\).jpeg");
-		background-size: 100%, 100%;
+		background: url("images/overlay.png"), url("../../images/mr/1\ cropped.jpg");
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
