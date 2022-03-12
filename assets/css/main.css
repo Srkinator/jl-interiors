@@ -555,10 +555,6 @@ input, select, textarea {
 		background-image: url('../../images/hi_main.jpg');
 	}
 
-	.bh {
-		background-image: url('../../images/bh_main.jpg');
-	}
-
 	.mr {
 		background-image: url('../../images/mr/1\ cropped.jpg');
 		background-size: 100% 100%;
@@ -2481,12 +2477,6 @@ input, select, textarea {
 	}
 	#intro-ew {
 		background: url("images/overlay.png"), url("../../images/ew_main.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-	#intro-bh {
-		background: url("images/overlay.png"), url("../../images/bh_main.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
