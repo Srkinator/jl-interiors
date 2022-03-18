@@ -559,6 +559,10 @@ input, select, textarea {
 		background-image: url('../../images/fulls_ch/01.jpeg');
 	}
 
+	.ve {
+		background-image: url('../../images/fulls_ve/01.jpg');
+	}
+
 	.hi {
 		background-image: url('../../images/hi_main.jpg');
 	}
@@ -2491,6 +2495,12 @@ input, select, textarea {
 	}
 	#intro-ch {
 		background: url("images/overlay.png"), url("../../images/fulls_ch/05.jpeg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	#intro-ve {
+		background: url("images/overlay.png"), url("../../images/fulls_ve/01.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
