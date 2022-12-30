@@ -570,6 +570,11 @@ input, select, textarea {
 	.lindt {
 		background-image: url('../../images/lindt/1-min.jpeg');
 	}
+
+	.sunny-emerald {
+		background-image: url('../../images/sunny_emerald/1-min.jpeg');
+	}
+
 	.white-heart {
 		background-image: url('../../images/white_heart/1-min.jpeg');
 		background-size: cover;
@@ -2532,6 +2537,12 @@ input, select, textarea {
 	}
 	#intro-white-heart {
 		background: url("images/overlay.png"), url("../../images/white_heart/1-min.jpeg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	#intro-sunny-emerald {
+		background: url("images/overlay.png"), url("../../images/sunny_emerald/1-min.jpeg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
