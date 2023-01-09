@@ -672,6 +672,16 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 1110px) {
+			.swiper {
+				width: 100% !important;
+			}
+			.swiper-slide-content {
+				font-size: 24px !important;
+				line-height: 20px !important;
+			}
+		}
+
 		@media screen and (max-width: 1000px) {
 
 			body, input, textarea, select {
@@ -682,6 +692,13 @@ input, select, textarea {
 				padding-top: 30%;
 			}
 
+		}
+
+		@media screen and (max-width: 830px) {
+			.swiper-slide-content {
+				font-size: 20px !important;
+				line-height: 18px !important;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -714,6 +731,7 @@ input, select, textarea {
 
 			#intro {
 				background-size: cover !important;
+				position: relative;
 			}
 		}
 
@@ -723,6 +741,13 @@ input, select, textarea {
 			}
 			.footer-content header h2 {
 				font-size: 60px;
+			}
+			.swiper-slide-content {
+				font-size: 18px !important;
+				line-height: 14px !important;
+			}
+			.swiper {
+				bottom: -80px !important;
 			}
 		}
 
@@ -2488,6 +2513,7 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+		overflow: hidden;
 	}
 
 	#intro-rr {
@@ -2569,6 +2595,35 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+	.swiper {
+		width: 80%;
+		height: 300px;
+		position: absolute !important;
+		bottom: -50px;
+	}
+
+	.swiper-slide-content {
+		max-width: 75%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 500;
+		background-color: rgba(197, 157, 95, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 25px;
+    background-blend-mode: color;
+	}
+
+	.swiper-slide-content-author {
+		margin-top: 10px;
+	}
+
+	.swiper-button-prev, .swiper-button-next {
+		color: white !important;
+		top: 30% !important;
+	}
+
 /* One */
 
 	#one {
