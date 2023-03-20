@@ -15,7 +15,6 @@
           prevEl: '.swiper-button-prev',
         },
       });
-      $body.removeClass('is-preload');
     }, 100);
   });
 })(jQuery);
