@@ -562,6 +562,12 @@ input, select, textarea {
 
 	.queendom {
 		background-image: url('../../images/queendom/1_hero.jpg');
+		.section-heading-text {
+			@media screen and (max-width: 550px) {
+				font-size: 85px;
+			}
+
+		}
 	}
 
 	.sunny-emerald {
