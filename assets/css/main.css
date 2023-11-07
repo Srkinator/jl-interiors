@@ -544,6 +544,10 @@ input, select, textarea {
 		background-image: url('../../images/lindt/1-min.jpeg');
 	}
 
+	.botanica {
+		background-image: url('../../images/botanica/1.jpg');
+	}
+
 	.sunny-emerald {
 		background-image: url('../../images/sunny_emerald/1-min.jpeg');
 	}
@@ -2531,6 +2535,12 @@ input, select, textarea {
 	}
 	#intro-fs {
 		background: url("images/overlay.png"), url("../../images/fulls_fs/03cover.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	#intro-botanica {
+		background: url("images/overlay.png"), url("../../images/botanica/1.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
