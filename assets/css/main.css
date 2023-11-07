@@ -544,6 +544,10 @@ input, select, textarea {
 		background-image: url('../../images/lindt/1-min.jpeg');
 	}
 
+	.bianco-antico {
+		background-image: url('../../images/bianco-antico/cover.jpg');
+	}
+
 	.botanica {
 		background-image: url('../../images/botanica/1.jpg');
 	}
@@ -2547,6 +2551,12 @@ input, select, textarea {
 	}
 	#intro-lindt {
 		background: url("images/overlay.png"), url("../../images/lindt/1-min.jpeg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	#intro-bianco-antico {
+		background: url("images/overlay.png"), url("../../images/bianco-antico/cover.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
