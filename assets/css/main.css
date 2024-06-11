@@ -570,6 +570,12 @@ input, select, textarea {
 		}
 	}
 
+	.puzzle {
+		background-image: url('../../images/puzzle/15.jpg');
+		background-size: cover;
+    background-position: center;
+	}
+
 	.sunny-emerald {
 		background-image: url('../../images/sunny_emerald/1-min.jpeg');
 	}
@@ -2575,6 +2581,12 @@ input, select, textarea {
 	}
 	#intro-queendom {
 		background: url("images/overlay.png"), url("../../images/queendom/1_hero.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	#intro-puzzle {
+		background: url("images/overlay.png"), url("../../images/puzzle/15.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
