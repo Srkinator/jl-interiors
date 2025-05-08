@@ -693,10 +693,6 @@ select {
 	}
 }
 
-.hi {
-	background-image: url('../../images/hi_main.jpg');
-}
-
 .mr {
 	background-image: url('../../images/mr/1\ cropped.jpg');
 	background-size: 100% 100%;
@@ -2714,13 +2710,6 @@ body.is-touch .main {
 	background-position: top left, bottom center;
 	background-repeat: repeat, no-repeat;
 	overflow: hidden;
-}
-
-#intro-hi {
-	background: url("images/overlay.png"), url("../../images/hi_main.jpg");
-	background-size: 256px 256px, cover;
-	background-attachment: fixed, fixed;
-	background-position: top left, center center;
 }
 
 #intro-mm {
