@@ -686,6 +686,12 @@ select {
 	background-position: center;
 }
 
+.like-in-paris {
+	background-image: url('../../images/like-in-paris/NASLOVNA.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 .hi {
 	background-image: url('../../images/hi_main.jpg');
 }
@@ -2803,6 +2809,13 @@ body.is-touch .main {
 
 #intro-ny {
 	background: url("images/overlay.png"), url("../../images/ny/POCETNA\ 1.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#intro-like-in-paris {
+	background: url("images/overlay.png"), url("../../images/like-in-paris/NASLOVNA.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
