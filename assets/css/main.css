@@ -690,6 +690,11 @@ select {
 	background-image: url('../../images/like-in-paris/NASLOVNA.jpg');
 	background-size: cover;
 	background-position: center;
+	@media screen and (max-width: 768px) {
+		p {
+			font-size: 80px;
+		}
+	}
 }
 
 .hi {
