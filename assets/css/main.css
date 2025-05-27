@@ -1865,6 +1865,47 @@ body.is-touch .poptrox-popup .closer {
 	transition: all 0.7s ease;
 }
 
+.gallery article {
+	position: relative;
+}
+
+.gallery article .render-overlay {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	background: transparent;
+	color: white;
+	padding: 2px 6px;
+	font-size: 10px;
+	font-weight: 500;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	pointer-events: none;
+	z-index: 10;
+}
+
+/* Poptrox popup overlay for 3D renders */
+.poptrox-popup .pic {
+	position: relative;
+}
+
+.poptrox-popup .render-overlay-popup {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	color: white;
+	padding: 3px 8px;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 4px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	pointer-events: none;
+	z-index: 1000;
+	background: transparent;
+}
+
 .gallery article:nth-last-child(1n) {
 	-moz-transition-delay: 0.05s;
 	-webkit-transition-delay: 0.05s;
