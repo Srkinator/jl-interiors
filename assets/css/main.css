@@ -667,7 +667,7 @@ select {
 }
 
 .the-view {
-	background-image: url('../../images/the-view/naslovna kao moze i trpezarija1 da se opet pojavi ova slika u redovnoj velicini.JPG');
+	background-image: url('../../images/the-view/naslovna.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -2936,7 +2936,7 @@ body.is-touch .main {
 }
 
 #intro-the-view {
-	background: url("images/overlay.png"), url("../../images/the-view/naslovna kao moze i trpezarija1 da se opet pojavi ova slika u redovnoj velicini1.JPG");
+	background: url("images/overlay.png"), url("../../images/the-view/naslovna1.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
