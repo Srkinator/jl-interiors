@@ -666,6 +666,12 @@ select {
 	background-position: center;
 }
 
+.the-view {
+	background-image: url('../../images/the-view/naslovna kao moze i trpezarija1 da se opet pojavi ova slika u redovnoj velicini.JPG');
+	background-size: cover;
+	background-position: center;
+}
+
 .mickey {
 	background-image: url('../../images/mickey/1.jpg');
 	background-size: cover;
@@ -2927,6 +2933,13 @@ body.is-touch .main {
 		padding: 1.5em 1.5em 2em 1.5em;
 	}
 
+}
+
+#intro-the-view {
+	background: url("images/overlay.png"), url("../../images/the-view/naslovna kao moze i trpezarija1 da se opet pojavi ova slika u redovnoj velicini1.JPG");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
 }
 
 @media screen and (max-width: 480px) {
