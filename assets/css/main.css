@@ -625,10 +625,6 @@ select {
 	background-image: url('../../images/fulls_ve/01.jpg');
 }
 
-.fs {
-	background-image: url('../../images/fulls_fs/03cover.jpg');
-}
-
 .lindt {
 	background-image: url('../../images/lindt/1-min.jpeg');
 }
@@ -2747,13 +2743,6 @@ body.is-touch .main {
 
 #intro-ve {
 	background: url("images/overlay.png"), url("../../images/fulls_ve/01.jpg");
-	background-size: 256px 256px, cover;
-	background-attachment: fixed, fixed;
-	background-position: top left, center center;
-}
-
-#intro-fs {
-	background: url("images/overlay.png"), url("../../images/fulls_fs/03cover.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
