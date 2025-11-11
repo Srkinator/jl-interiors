@@ -666,6 +666,12 @@ select {
 	background-position: center;
 }
 
+.organic {
+	background-image: url('../../images/organic/NASLOVNA.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 .the-view {
 	background-image: url('../../images/the-view/naslovna.jpg');
 	background-size: cover;
@@ -2933,6 +2939,22 @@ body.is-touch .main {
 		padding: 1.5em 1.5em 2em 1.5em;
 	}
 
+}
+
+#intro-organic {
+	background: url("images/overlay.png"), url("../../images/organic/NASLOVNA.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+@media screen and (min-width: 1281px) {
+	#intro-organic {
+		background: url("images/overlay.png"), url("../../images/organic/NASLOVNA\ desktop.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 }
 
 #intro-the-view {
