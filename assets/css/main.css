@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
 /*
@@ -9,6 +8,16 @@
 @font-face {
 	font-family: "nyala";
 	src: url("../fonts/nyala.ttf") format("truetype");
+	font-display: swap;
+}
+
+.header-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header-title {
+	cursor: pointer;
 }
 
 html,
