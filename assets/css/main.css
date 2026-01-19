@@ -2845,6 +2845,13 @@ body.is-touch .main {
 	background-position: top left, center center;
 }
 
+#intro-the-silni {
+	background: url("images/overlay.png"), url("../../images/silni/NASLOVNA.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
 #intro-like-in-paris {
 	background: url("images/overlay.png"), url("../../images/like-in-paris/NASLOVNA.jpg");
 	background-size: 256px 256px, cover;
