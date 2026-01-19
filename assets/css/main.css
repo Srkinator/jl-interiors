@@ -710,6 +710,12 @@ select {
 	background-image: url('../../images/ny/POCETNA\ 1.jpg');
 }
 
+.the-silni {
+	background-image: url('../../images/silni/NASLOVNA.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 .heading-image-link {
 	position: relative;
 }
