@@ -2846,7 +2846,7 @@ body.is-touch .main {
 }
 
 #intro-the-silni {
-	background: url("images/overlay.png"), url("../../images/silni/NASLOVNA.jpg");
+	background: url("images/overlay.png"), url("../../images/silni/NASLOVNA-landing.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
