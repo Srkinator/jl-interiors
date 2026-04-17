@@ -725,6 +725,18 @@ select {
 	background-position: center;
 }
 
+.paparazzo {
+	background-image: url('../../images/paparazzo/NASLOVNA-1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.cloud-dancer {
+	background-image: url('../../images/cloud-dancer/NASLOVNA.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 .heading-image-link {
 	position: relative;
 }
@@ -2868,6 +2880,20 @@ body.is-touch .main {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+}
+
+#intro-paparazzo {
+	background: url("images/overlay.png"), url("../../images/paparazzo/NASLOVNA.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#intro-cloud-dancer {
+	background: url("images/overlay.png"), url("../../images/cloud-dancer/NASLOVNA.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
 }
 
 #intro-like-in-paris {

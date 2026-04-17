@@ -6,6 +6,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.jasnaleko.com/paparazzo.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jasnaleko.com/cloud-dancer.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.jasnaleko.com/the-silni.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
