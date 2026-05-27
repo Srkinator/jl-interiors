@@ -735,6 +735,12 @@ select {
 	background-image: url('../../images/cloud-dancer/NASLOVNA.jpg');
 	background-size: cover;
 	background-position: center;
+
+	.section-heading-text {
+		top: 70%;
+		left: 50%;
+		line-height: 0.85;
+	}
 }
 
 .heading-image-link {
