@@ -1908,24 +1908,11 @@ body.is-touch .poptrox-popup .closer {
 	position: relative;
 }
 
+/* Prominent "3d" pill used site-wide on all 3D render galleries */
 .gallery article .render-overlay {
 	position: absolute;
 	top: 8px;
 	left: 8px;
-	background: transparent;
-	color: white;
-	padding: 2px 6px;
-	font-size: 10px;
-	font-weight: 500;
-	border-radius: 3px;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	pointer-events: none;
-	z-index: 10;
-}
-
-/* More visible "3d" pill (used on the Heritage project) */
-.gallery article .render-overlay.render-overlay-strong {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -1936,7 +1923,10 @@ body.is-touch .poptrox-popup .closer {
 	font-size: 13px;
 	font-weight: 700;
 	border-radius: 4px;
+	text-transform: uppercase;
 	letter-spacing: 1px;
+	pointer-events: none;
+	z-index: 10;
 	/* Force lining figures so the "3" aligns with the cap "D" */
 	font-variant-numeric: lining-nums;
 	-moz-font-feature-settings: "lnum" 1;
@@ -1957,16 +1947,16 @@ body.is-touch .poptrox-popup .closer {
 	align-items: center;
 	justify-content: center;
 	line-height: 1;
-	color: white;
-	padding: 3px 8px;
-	font-size: 12px;
-	font-weight: 500;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: 700;
 	border-radius: 4px;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
+	letter-spacing: 1px;
 	pointer-events: none;
 	z-index: 1000;
-	background: transparent;
+	background: rgba(0, 0, 0, 0.45);
 	/* Force lining figures so the "3" aligns with the cap "D" */
 	font-variant-numeric: lining-nums;
 	-moz-font-feature-settings: "lnum" 1;
