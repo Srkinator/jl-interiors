@@ -86,19 +86,38 @@
 			windowMargin: 50,
 			usePopupNav: true,
 			onPopupOpen: function () {
-				// Add 3D overlay to popup if image contains "3D"
-				setTimeout(function () {
+				// Keep the "3d" overlay in sync with the current image while
+				// navigating between photos. onPopupOpen only fires once per
+				// popup (it's locked), and poptrox reuses the same popup for
+				// next/prev, so we poll the current src instead of adding the
+				// overlay a single time.
+				var syncRenderOverlay = function () {
 					var $popup = $('.poptrox-popup');
-					var $img = $popup.find('.pic img');
-					var imgSrc = $img.attr('src');
-
-					if (imgSrc && imgSrc.includes('3D')) {
-						// Remove any existing overlay
-						$popup.find('.render-overlay-popup').remove();
-						// Add 3D overlay
-						$popup.find('.pic').append('<div class="render-overlay-popup">3d</div>');
+					if (!$popup.length) {
+						return;
 					}
-				}, 1000);
+					var imgSrc = $popup.find('.pic img').attr('src') || '';
+					var isRender = imgSrc.indexOf('3D') !== -1;
+					var $overlay = $popup.find('.render-overlay-popup');
+					if (isRender && $overlay.length === 0) {
+						$popup.find('.pic').append('<div class="render-overlay-popup">3d</div>');
+					} else if (!isRender && $overlay.length) {
+						$overlay.remove();
+					}
+				};
+				setTimeout(syncRenderOverlay, 300);
+				if (window._renderOverlayInterval) {
+					clearInterval(window._renderOverlayInterval);
+				}
+				window._renderOverlayInterval = setInterval(syncRenderOverlay, 250);
+			},
+			onPopupClose: function () {
+				// Stop syncing and clear the overlay when the popup closes.
+				if (window._renderOverlayInterval) {
+					clearInterval(window._renderOverlayInterval);
+					window._renderOverlayInterval = null;
+				}
+				$('.poptrox-popup').find('.render-overlay-popup').remove();
 			}
 		});
 

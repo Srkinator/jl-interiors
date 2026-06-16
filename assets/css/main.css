@@ -725,6 +725,12 @@ select {
 	background-position: center;
 }
 
+.heritage {
+	background-image: url('../../images/heritage/NASLOVNA.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 .paparazzo {
 	background-image: url('../../images/paparazzo/NASLOVNA-1.jpg');
 	background-size: cover;
@@ -1918,6 +1924,26 @@ body.is-touch .poptrox-popup .closer {
 	z-index: 10;
 }
 
+/* More visible "3d" pill (used on the Heritage project) */
+.gallery article .render-overlay.render-overlay-strong {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	background: rgba(0, 0, 0, 0.45);
+	color: #fff;
+	padding: 5px 9px;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	/* Force lining figures so the "3" aligns with the cap "D" */
+	font-variant-numeric: lining-nums;
+	-moz-font-feature-settings: "lnum" 1;
+	-webkit-font-feature-settings: "lnum" 1;
+	font-feature-settings: "lnum" 1;
+}
+
 /* Poptrox popup overlay for 3D renders */
 .poptrox-popup .pic {
 	position: relative;
@@ -1927,6 +1953,10 @@ body.is-touch .poptrox-popup .closer {
 	position: absolute;
 	top: 12px;
 	left: 12px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
 	color: white;
 	padding: 3px 8px;
 	font-size: 12px;
@@ -1937,6 +1967,11 @@ body.is-touch .poptrox-popup .closer {
 	pointer-events: none;
 	z-index: 1000;
 	background: transparent;
+	/* Force lining figures so the "3" aligns with the cap "D" */
+	font-variant-numeric: lining-nums;
+	-moz-font-feature-settings: "lnum" 1;
+	-webkit-font-feature-settings: "lnum" 1;
+	font-feature-settings: "lnum" 1;
 }
 
 .gallery article:nth-last-child(1n) {
@@ -2886,6 +2921,13 @@ body.is-touch .main {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+}
+
+#intro-heritage {
+	background: url("images/overlay.png"), url("../../images/heritage/NASLOVNA.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
 }
 
 #intro-paparazzo {
